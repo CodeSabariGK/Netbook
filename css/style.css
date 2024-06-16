@@ -34,5 +34,20 @@ h1, h2, h3, h4, h5, h6{
     margin-bottom: 20px ;
 
 }
-
 /* joinnetwork end */
+/* awards wrapper start */
+.awards{
+    padding: 100px 0px;
+}
+.awards-wrapper > div > div > div{
+    box-shadow: 0px 4px 4px 0px #0000002b;
+    border-radius: 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .awards-wrapper > div > div > div{
+        width : 90%; 
+    }  
+}
+
+/* awards wrapper end */
