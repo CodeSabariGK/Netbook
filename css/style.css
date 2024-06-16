@@ -59,3 +59,14 @@ h1, h2, h3, h4, h5, h6{
     background: linear-gradient(0deg,#F4F9FF 14%,F1F6FD 30%,#F1F6FD 64%,#FFFFFF 100%);
 }
 /* community ends */
+/* members wrapper start */
+.members-wrapper > div > div > div{
+    padding: 30px;
+    box-shadow: 14px 22px 52px -12px black;
+    border-radius: 20px;
+}
+.members-wrapper > div > div > div:hover{
+    background-color: aquamarine;
+}
+
+/* members wrapper end */
