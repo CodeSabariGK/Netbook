@@ -24,7 +24,9 @@ h1, h2, h3, h4, h5, h6{
 .banner,
 .awards, 
 .community,
-.members
+.members,
+.news,
+footer
 {
     padding: 50px 0px;
 }
@@ -85,3 +87,18 @@ h1, h2, h3, h4, h5, h6{
     background-size: cover;
 }
 /* news wrapper ends */
+/* footer-wrapper start */
+footer{
+    background-color: #2B2B39; 
+}
+.input-group > input{
+    background-color: #2B2B39; 
+}
+.col-3 > a{
+    color: white;
+}
+/* footer-wrapper end */
+
+.footer-end{
+    background-color: #20202D; 
+}
