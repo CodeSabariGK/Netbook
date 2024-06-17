@@ -23,7 +23,8 @@ h1, h2, h3, h4, h5, h6{
 
 .banner,
 .awards, 
-.community
+.community,
+.members
 {
     padding: 50px 0px;
 }
@@ -64,9 +65,23 @@ h1, h2, h3, h4, h5, h6{
     padding: 30px;
     box-shadow: 14px 22px 52px -12px black;
     border-radius: 20px;
+    transition: all 1s 5s;
 }
 .members-wrapper > div > div > div:hover{
-    background-color: aquamarine;
+    height: 400px;
+    width: 300px;
+    align-content: space-evenly;
 }
 
 /* members wrapper end */
+/* application start */
+.application{
+    background-color: #E5F0FD;
+}
+/* application end */
+/* news wrapper start */
+.news{
+    background: url(../img/news/bolg.png) no-repeat center;
+    background-size: cover;
+}
+/* news wrapper ends */
