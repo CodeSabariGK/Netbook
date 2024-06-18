@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6{
 .community,
 .members,
 .news,
-footer
+.bottom
 {
     padding: 50px 0px;
 }
@@ -88,7 +88,7 @@ footer
 }
 /* news wrapper ends */
 /* footer-wrapper start */
-footer{
+.bottom{
     background-color: #2B2B39; 
 }
 .input-group > input{
